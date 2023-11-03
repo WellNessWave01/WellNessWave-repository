@@ -1,0 +1,126 @@
+﻿body {
+    margin:0px;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+#container-head {
+    height: 40px;
+    width: 100%;
+    background-color: #8c114d;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    justify-content: end;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+
+.header-list {
+    list-style-type: none;
+  margin-right:10px;
+  margin-bottom:0px;
+  margin-top:0px;
+  padding:5px;
+}
+.header-list li{
+    display:inline;
+    margin:5px 5px;
+    font-size:0.8em;
+}
+.header-list a{
+    text-decoration:none;
+    color:white;
+}
+.container-2 {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(15,26,45,0.3);
+    margin-top: 0px;
+    display:flex;
+}
+.modules-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.modules-bar li {
+    display: inline;
+    text-decoration: none;
+    
+}
+.modules-bar{
+  
+}
+.modules-bar a {
+    color: #8c114d;
+    opacity: 1;
+    margin: 20px 10px;
+    
+}
+
+.logo h3 {
+    margin-left: 10px;
+}
+footer {
+    background-color: #0F1A2D;
+    color: #fff; 
+    padding: 20px;
+}
+.footer {
+    width: 1170px;
+   
+}
+.footer-list a{
+    color:white;
+    
+}
+.footer-list li{
+    margin:10px 0px;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8c114d;
+}
+.align-content-md-center{
+    margin-bottom:10px;
+}
+.footer-content p {
+    margin: 0;
+}
+
+    .footer-content ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+        .footer-content ul li {
+            display: inline;
+            margin-right: 10px;
+            
+        }
+
+    .footer-content a {
+        color: #fff; 
+        text-decoration: none;
+    }
+    .hover-test{
+        display:inline-block;
+        max-width:150px;
+    }
+
